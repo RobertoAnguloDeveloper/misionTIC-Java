@@ -1,0 +1,20 @@
+Riesgo si
+
+Edad < 45 o >= 45
+
+y
+
+IMC < 22 o >= 22
+
+IMC = Peso/((altura(m))^2)
+
+SALIDA IMC
+***********
+IMC < 22 Medio
+IMC >= 22 Alto
+
+PERMITIDOS O SIN ERROR
+***********************
+0 < masa > 150
+0.1 < altura > 2.5
+0 < edad > 110
