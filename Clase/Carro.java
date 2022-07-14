@@ -41,6 +41,7 @@ public class Carro {
 
         Scanner teclado = new Scanner(System.in); //ENTRADA DE DATOS
         long pasajeros;
+        
 
         System.out.println("Ingrese la cantidad de pasajeros: ");
         pasajeros = teclado.nextInt();
