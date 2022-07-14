@@ -8,7 +8,7 @@ import java.util.Scanner;
 *    -> No declarar objetos de tipo Scanner, utilizar el método read() para solicitar datos al usuario.
 *    -> Si requiere utilizar varias clases, estas NO deben ser tipo public.
 */
-class Reto0{
+class Reto02{
 
     /**
     *  Este debe ser el único objeto de tipo Scanner en el código

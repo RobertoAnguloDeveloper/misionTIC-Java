@@ -9,17 +9,18 @@ public class Carro {
     double cilindraje;
     int numeroPuertas;
     int numeroAsientos;
-    
-    public void pasajeros(int cantidadPasajeros){
-        if(cantidadPasajeros <= numeroAsientos){
-            System.out.println("HAY CUPO");
-        }else{
-            System.out.println("NO HAY CUPO");
+
+    public void pasajeros(int cantidadPasajeros) {
+        if (cantidadPasajeros <= numeroAsientos) {
+            System.out.println("HAY CUPO EN "+marca+" "+modelo+" PARA "+cantidadPasajeros+" PASAJEROS");
+        } else {
+            System.out.println("NO HAY CUPO EN "+marca+" "+modelo+" PARA "+cantidadPasajeros+" PASAJEROS");
         }
     }
 
     public String toString() {
-        return "Carro{" + "marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", cilindraje=" + cilindraje + ", numeroPuertas=" + numeroPuertas + '}';
+        return "Carro{" + "marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", cilindraje="
+                + cilindraje + ", numeroPuertas=" + numeroPuertas + '}';
     }
 
     public static void main(String[] args) {
@@ -39,11 +40,13 @@ public class Carro {
         sedan.numeroPuertas = 4;
         sedan.numeroAsientos = 5;
 
-        Scanner teclado = new Scanner(System.in); //ENTRADA DE DATOS
-        long pasajeros;
-        
+        Scanner teclado = new Scanner(System.in); // ENTRADA DE DATOS
+        int pasajeros;
 
         System.out.println("Ingrese la cantidad de pasajeros: ");
         pasajeros = teclado.nextInt();
+        teclado.close();
+        coupe.pasajeros(pasajeros);
+        sedan.pasajeros(pasajeros);
     }
 }
