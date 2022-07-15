@@ -18,3 +18,7 @@ PERMITIDOS O SIN ERROR
 0 < masa > 150
 0.1 < altura > 2.5
 0 < edad > 110
+
+ORDEN DE ENTRADA
+******************
+MASA ALTURA EDAD

@@ -1,10 +1,8 @@
 package Reto1;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.Scanner;
 
-public class Reto1 {
+public class Reto12 {
     /**
     *  Este debe ser el único objeto de tipo Scanner en el código
     */
@@ -43,10 +41,5 @@ public class Reto1 {
         } else {
             System.out.println("ERROR");
         }
-    }
-
-    public static void main(String[] args) {
-        Reto1 reto1 = new Reto1();
-        reto1.run();
     }
 }
